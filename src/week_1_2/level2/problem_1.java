@@ -1,0 +1,21 @@
+package week_1_2.level2;
+import java.util.*;
+public class problem_1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double number1 = sc.nextDouble();
+        double number2 = sc.nextDouble();
+        double add = number1 + number2;
+        double sub = number1 - number2;
+        double mul = number1 * number2;
+        System.out.print("The addition, subtraction, multiplication, and division value of 2 numbers " 
+                + number1 + " and " + number2 + " is " + add + ", " + sub + ", " + mul + ", ");
+        if (number2 == 0.0) {
+            System.out.println("undefined (division by zero)");
+        } else {
+            double div = number1 / number2;
+            System.out.println(div);
+        }
+        sc.close();
+    }
+}
