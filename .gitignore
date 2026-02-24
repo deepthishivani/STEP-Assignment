@@ -7,3 +7,4 @@
 # Java build output
 bin/
 *.class
+*.class
