@@ -8,3 +8,7 @@
 bin/
 *.class
 *.class
+
+# Ignore compiled Java files
+*.class
+out/
