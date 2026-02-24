@@ -1,4 +1,4 @@
-package week_3_4.level2;
+package level2;
 
 import java.util.Scanner;
 
